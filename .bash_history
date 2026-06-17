@@ -106,3 +106,8 @@ git push origin master
 git filter-branch --force --index-filter \ "git rm --cached --ignore-unmatch YOUR_FILENAME" \ --prune_empty --tag-name-filter cat -- --all
 git push origin master --force
 git push origin master
+git add .
+git commit -m "Add CSS styling for portfolio lab"
+git push origin main
+git add .
+git remote add origin https://github.com/njaned/Assingment-2.git
