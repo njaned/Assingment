@@ -111,3 +111,5 @@ git commit -m "Add CSS styling for portfolio lab"
 git push origin main
 git add .
 git remote add origin https://github.com/njaned/Assingment-2.git
+git add .
+git commit -m "Add CSS styling for portfolio lab
