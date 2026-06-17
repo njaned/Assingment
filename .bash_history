@@ -95,3 +95,14 @@ mkdir -p ~/projects/portfolio
 cd ~/projects/portfolio
 touch index.html
 code .
+git add.
+git add .
+git commit -m "Complete Fire Island travel blog"
+git push origin main
+git push origin master
+git remote add origin https://github.com/njaned/Assingment.git
+git remote -v
+git push origin master
+git filter-branch --force --index-filter \ "git rm --cached --ignore-unmatch YOUR_FILENAME" \ --prune_empty --tag-name-filter cat -- --all
+git push origin master --force
+git push origin master
